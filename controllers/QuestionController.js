@@ -1,6 +1,6 @@
 import express from "express";
 const router = express.Router();
-import Question from "../models/QuestionModel.js"; // Assuming QuestionModel.js is your model file
+import Question from "../models/QuestionModel.js";
 import { AiChatSession } from "../utils/aiModel.js";
 
 router.post("/", async (req, res) => {
@@ -11,7 +11,7 @@ router.post("/", async (req, res) => {
     );
     const answer = await result.response.text();
     const question = new Question({
-      user_id: req.userId, // Assuming req.userId is available from authentication middleware
+      user_id: req.userId,
       content,
       answer,
     });
