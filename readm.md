@@ -18,7 +18,7 @@ This project provides a backend API for a question-answering system powered by G
 1. Clone this repository:
 
    ```bash
-   git clone [https://github.com/Faizgeeky/faiz-mohammad-answersai-backend.git](https://github.com/Faizgeeky/faiz-mohammad-answersai-backend.git)
+   git clone [https://github.com/your-username/faiz-mohammad-answersai-backend.git](https://github.com/your-username/faiz-mohammad-answersai-backend.git)
 
 2. Navigate to the project directory:
 
